@@ -13,6 +13,9 @@ import { Icon } from 'astro-icon/components'
     <li class="menu-item">
       <a href="/blog/">Blog</a>
     </li>
+    <li class="menu-item">
+      <a href="/portfolio/">Portfolio</a>
+    </li>
     <li class="menu-item has-dropdown">
       <button aria-haspopup="true" aria-expanded="false">Example Pages</button>
       <ul class="dropdown-menu">
@@ -46,9 +49,9 @@ import { Icon } from 'astro-icon/components'
       display: block;
 
       [data-icon] {
-        height: auto;
         margin-top: -4px;
         width: 30px;
+        height: auto;
 
         path {
           fill: var(--action-color);
