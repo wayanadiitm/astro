@@ -1,20 +1,21 @@
 ---
-title: MetaVerse Academy
+title: Accessible Learning Hub
 author: Sarah Johnson
+description: An inclusive e-learning platform that adapts to various learning disabilities and provides personalized learning experiences for all students
 ---
 
 ## Project Overview
 
-MetaVerse Academy transforms traditional education through immersive VR/AR experiences. Students can explore historical events, conduct virtual science experiments, or practice surgical procedures in photorealistic environments. The platform adapts to each student's learning style using AI-driven personalization.
+Accessible Learning Hub transforms online education by making it truly inclusive for all learners. The platform automatically adapts content presentation based on individual needs, supporting dyslexia, ADHD, visual impairments, and other learning differences through AI-driven personalization.
 
 ## Technical Challenges
 
-The biggest challenge was achieving low-latency performance while maintaining high-fidelity graphics across different devices. We implemented a dynamic LOD system with edge-computed rendering, allowing seamless experiences even on mobile VR headsets.
+The biggest challenge was creating a system that could dynamically adjust content presentation without losing educational value. We implemented an adaptive engine that modifies text layout, color schemes, and content pacing while maintaining curriculum integrity and learning objectives.
 
 ## Testimonial
 
-> "MetaVerse Academy has completely transformed how our medical students learn anatomy. The ability to manipulate and explore 3D models in virtual space has accelerated their understanding dramatically."
+> "Accessible Learning Hub has revolutionized how our students with learning differences engage with online content. The personalized adaptations have dramatically improved both comprehension and confidence."
 >
-> - Prof. Helen Martinez, Head of Medical Education, University of Innovation
+> - Prof. Helen Martinez, Director of Special Education
 
-Currently developing advanced AI tutors with emotional intelligence and expanding into professional training simulations.
+Currently expanding into multi-modal content delivery and developing more sophisticated learning pattern recognition algorithms.

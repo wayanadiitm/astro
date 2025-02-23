@@ -1,20 +1,21 @@
 ---
-title: HealthCore AI
+title: HealthAccess
 author: Dr. Rachel Zhang
+description: An accessible healthcare management system designed for patients with various disabilities to independently manage their medical care
 ---
 
 ## Project Overview
 
-HealthCore AI revolutionizes medical diagnostics by analyzing patient data across multiple dimensions - from genomics to real-time biometrics. The platform provides early disease detection and personalized treatment recommendations while maintaining strict HIPAA compliance.
+HealthAccess revolutionizes healthcare management by making medical information and services accessible to all patients. The platform provides multiple interaction methods including voice commands, high-contrast modes, and simplified interfaces, ensuring patients with disabilities can independently manage their healthcare.
 
 ## Technical Challenges
 
-The biggest challenge was creating a system that could process diverse medical data types while maintaining patient privacy. We implemented a federated learning approach that allows the AI to learn from distributed datasets without exposing sensitive information.
+The biggest challenge was creating an interface that worked seamlessly with various assistive technologies while maintaining HIPAA compliance. We implemented a flexible accessibility layer that adapts to different user needs while ensuring secure access to sensitive medical information.
 
 ## Testimonial
 
-> "HealthCore AI has transformed our diagnostic capabilities. We're catching conditions months earlier than before, and the personalized treatment recommendations have significantly improved patient outcomes."
+> "HealthAccess has transformed how I manage my medical care. As someone with limited mobility, I can now schedule appointments, review test results, and communicate with my doctors independently."
 >
-> - Dr. Sarah Chen, Chief of Medicine, Metropolitan Hospital
+> - Sarah Chen, Patient Advocate
 
-Currently expanding into rare disease identification and developing specialized modules for pediatric care.
+Currently expanding into telemedicine accessibility features and developing specialized interfaces for cognitive disabilities.

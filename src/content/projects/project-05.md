@@ -1,20 +1,21 @@
 ---
-title: DeFi Pulse
+title: FinanceForAll
 author: Viktor Nakamoto
+description: A fully accessible financial management platform that makes banking and investment tools available to users with various disabilities
 ---
 
 ## Project Overview
 
-DeFi Pulse is a groundbreaking financial platform that bridges traditional finance with Web3 capabilities. The system enables instant cross-chain transactions, automated yield farming, and decentralized identity management while maintaining bank-grade security standards.
+FinanceForAll revolutionizes personal banking by making financial tools accessible to everyone. The platform provides screen-reader optimized interfaces, keyboard-only navigation, and simplified layouts for cognitive accessibility, ensuring equal access to banking, investment, and financial planning tools.
 
 ## Technical Challenges
 
-The primary challenge was ensuring atomic transactions across multiple chains while preventing sandwich attacks. We developed a novel consensus mechanism using zero-knowledge proofs that reduces transaction costs by 80% while maintaining security.
+The primary challenge was creating complex financial interfaces that remained fully accessible without sacrificing functionality. We developed a modular interface system that adapts to different assistive technologies while maintaining secure banking protocols and real-time market data integration.
 
 ## Testimonial
 
-> "DeFi Pulse has completely transformed our treasury management. The automated yield strategies and cross-chain capabilities have given us unprecedented financial flexibility."
+> "FinanceForAll has given me true financial independence. As a blind person, I can now manage my investments and banking with the same ease as anyone else. The accessible charts and financial data are game-changing."
 >
-> - James Wu, CFO, Digital Assets Fund
+> - James Wu, Software Developer
 
-Expanding into real-world asset tokenization and implementing quantum-resistant cryptography.
+Expanding into voice-controlled trading features and developing more accessible financial education tools.
