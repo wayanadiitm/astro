@@ -4,9 +4,13 @@ import { Icon } from 'astro-icon/components'
 import {
   Accordion,
   AccordionItem,
+  Avatar,
+  AvatarGroup,
+  Badge,
   Breadcrumbs,
   BreadcrumbsItem,
   Card,
+  DarkMode,
   Media,
   Modal,
   Notification,
@@ -117,6 +121,35 @@ import {
           </Accordion>
         </div>
         <div class="space-content">
+          <h2>Avatar</h2>
+          <div class="flex-w flex gap-3">
+            <Avatar initials="MT" label="Mark Teekman" />
+            <Avatar initials="PP" label="Peter Padberg" type="info" shape="square" />
+            <Avatar
+              label="Astronout"
+              img="https://images.unsplash.com/photo-1620428268482-cf1851a36764?auto=format&fit=crop&q=100&w=800"
+            />
+          </div>
+          <Avatar title="Mark Teekman" subtitle="Developer & A11Y Expert" />
+          <AvatarGroup>
+            <Avatar size="sm" label="Developer" initials="DV" />
+            <Avatar size="sm" type="info" label="Designer" initials="DS" />
+            <Avatar size="sm" type="success" label="Product Manager" initials="PM" />
+            <Avatar size="sm" type="warning" label="Marketing" initials="MK" />
+            <Avatar size="sm" type="error" label="Marketing" initials="MK" />
+          </AvatarGroup>
+        </div>
+        <div class="space-content">
+          <h2>Badge</h2>
+          <div class="flex flex-wrap gap-2">
+            <Badge type="default">Default</Badge>
+            <Badge type="info">Info</Badge>
+            <Badge type="success">Success</Badge>
+            <Badge type="warning">Warning</Badge>
+            <Badge type="error">Error</Badge>
+          </div>
+        </div>
+        <div class="space-content">
           <h2>Breadcrumbs</h2>
           <Breadcrumbs>
             <BreadcrumbsItem href="/" label="Home" />
@@ -161,7 +194,7 @@ import {
         <div class="space-content">
           <h2>Cards</h2>
           <Card
-            img="https://images.unsplash.com/photo-1620428268482-cf1851a36764?auto=format&fit=crop&q=80&w=800"
+            img="https://images.unsplash.com/photo-1620428268482-cf1851a36764?auto=format&fit=crop&q=100&w=800"
             title="Card Title"
             footer="Author name"
           >
@@ -176,13 +209,19 @@ import {
         </div>
         <div class="space-content">
           <h2>DarkMode Toggle</h2>
-          <p>This component can be viewed in the top right corner besides the main navigation.</p>
+          <div class="flex gap-2">
+            <DarkMode />
+            <DarkMode>
+              <Icon name="ion:bulb" slot="light" />
+              <Icon name="ion:bulb-outline" slot="dark" />
+            </DarkMode>
+          </div>
         </div>
         <div class="space-content">
           <h2>Media</h2>
           <Media
             class="rounded-lg"
-            src="https://images.unsplash.com/photo-1620428268482-cf1851a36764?auto=format&fit=crop&q=80&w=800"
+            src="https://images.unsplash.com/photo-1620428268482-cf1851a36764?auto=format&fit=crop&q=100&w=800"
           />
         </div>
         <div class="space-content">
@@ -232,8 +271,11 @@ import {
           <Pagination totalPages="200" />
         </div>
         <div class="space-content">
-          <h2>SkipLinks</h2>
-          <p>This component can be viewed by shift+tabbing until they show up.</p>
+          <h2>SkipLink</h2>
+          <p>
+            The SkipLink component becomes visible when you shift+tab to navigate backward through the page, it's the
+            first focusable element on the page.
+          </p>
         </div>
       </div>
       <div class="my-32"></div>
@@ -261,11 +303,11 @@ import {
             <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
               <Media
                 class="rounded-lg"
-                src="https://images.unsplash.com/photo-1636819488537-a9b1ffb315ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                src="https://images.unsplash.com/photo-1636819488537-a9b1ffb315ce?auto=format&fit=crop&w=800&q=100"
               />
               <Media
                 class="rounded-lg"
-                src="https://images.unsplash.com/photo-1636819488537-a9b1ffb315ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                src="https://images.unsplash.com/photo-1636819488537-a9b1ffb315ce?auto=format&fit=crop&w=800&q=100"
               />
             </div>
             <p>
